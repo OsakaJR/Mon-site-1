@@ -1,0 +1,119 @@
+
+.games{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}  
+.game{
+    height: 100%;
+    flex:1;
+    transition: flex 1s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+.game{
+    height: 100%;
+    flex:1;
+    transition: flex 1s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;  
+}
+.game:hover{
+    flex:5
+}
+.dbl{
+    background-image: url("https://static.actugaming.net/media/2019/03/ogp_ww_20180531.jpg");
+}
+
+.dbfz{
+    background-image: url("https://pbs.twimg.com/media/FpL6qxGXEA4C3LV?format=jpg&name=large");
+  
+
+}
+.dbx{
+    background-image: url("https://opensooq-images.os-cdn.com/previews/0x720/b9/5a/b95a1abce628a472258edbd0910fd77ae456033dd672f3ce927e6d05bacafdec.jpg.webp");
+
+}
+.block{
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+.card-img-top{
+    border-radius: 2.5%;
+}
+.card1{
+   border: 1px solid black;
+   border-radius: 2%;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+.card2{
+    border: 1px solid black;
+    border-radius: 2%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card3{
+    border: 1px solid black;
+    border-radius: 2%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+
+.social {
+    display: flex;
+    width:100%;
+    justify-content:center;
+}
+  
+.social > a {
+    background-color: chocolate;
+    display:flex;
+    justify-content:center;
+    justify-content: space-between;
+    justify-content: space-around;
+    font-size:24px;
+    width:40px;
+    border-radius:50%;
+    border:1px solid #ff0000;
+    color:inherit;
+    opacity:0.75;
+    
+}
+  
+.social > a:hover {
+    opacity:0.9;
+}
+ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+
+ul a:hover {
+    opacity:1;
+} 
+.copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:20px;
+    color:#000000;
+}
