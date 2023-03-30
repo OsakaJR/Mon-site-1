@@ -1,9 +1,111 @@
-.container-fluid{
-    position: sticky;
-    top: 0;
-    left: 0;
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase
   }
   
+  .navbar .nav {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.2rem
+  }
+  
+  .navbar-inverse {
+    background-color: #003300
+  }
+  
+  .navbar-inverse .navbar-nav>.active>a:hover,
+  .navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+    background-color: #002200
+  }
+  
+  .navbar-inverse .navbar-nav>.active>a,
+  .navbar-inverse .navbar-nav>.open>a,
+  .navbar-inverse .navbar-nav>.open>a,
+  .navbar-inverse .navbar-nav>.open>a:hover,
+  .navbar-inverse .navbar-nav>.open>a,
+  .navbar-inverse .navbar-nav>.open>a:hover,
+  .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #003300
+  }
+  
+  .dropdown-menu {
+    background-color: #006B00
+  }
+  
+  .dropdown-menu>li>a:hover,
+  .dropdown-menu>li>a:focus {
+    background-color: #002200
+  }
+  
+  .navbar-inverse {
+    background-image: none;
+  }
+  
+  .dropdown-menu>li>a:hover,
+  .dropdown-menu>li>a:focus {
+    background-image: none;
+  }
+  
+  .navbar-inverse {
+    border-color: #003300
+  }
+  
+  .navbar-inverse .navbar-brand {
+    color: #FFFFFF
+  }
+  
+  .navbar-inverse .navbar-brand:hover {
+    color: #FFCC00
+  }
+  
+  .navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF
+  }
+  
+  .navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+    color: #FFCC00
+  }
+  
+  .navbar-inverse .navbar-nav>.active>a,
+  .navbar-inverse .navbar-nav>.open>a,
+  .navbar-inverse .navbar-nav>.open>a:hover,
+  .navbar-inverse .navbar-nav>.open>a:focus {
+    color: #FFCC00
+  }
+  
+  .navbar-inverse .navbar-nav>.active>a:hover,
+  .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #FFCC00
+  }
+  
+  .dropdown-menu>li>a {
+    color: #FFFFFF
+  }
+  
+  .dropdown-menu>li>a:hover,
+  .dropdown-menu>li>a:focus {
+    color: #FFCC00
+  }
+  
+  .navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-top-color: #FFFFFF
+  }
+  
+  .navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-top-color: #FFFFFF
+  }
+  
+  .navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-bottom-color: #FFFFFF
+  }
+  
+  .navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-bottom-color: #FFFFFF
+  }
 .games{
     display: flex;
     height: 100vh;
@@ -41,20 +143,20 @@
     flex:5
 }
 .dbl{
-    background-image: url("./img/dbl1.jpg");
+    background-image: url("https://static.actugaming.net/media/2019/03/ogp_ww_20180531.jpg");
 }
 
 .dbfz{
-    background-image: url("./img/dbfz1.jpg");
+    background-image: url("https://pbs.twimg.com/media/FpL6qxGXEA4C3LV?format=jpg&name=large");
   
 
 }
 .dbx{
-    background-image: url("./img/dbx21.jpg");
+    background-image: url("https://opensooq-images.os-cdn.com/previews/0x720/b9/5a/b95a1abce628a472258edbd0910fd77ae456033dd672f3ce927e6d05bacafdec.jpg.webp");
 
 }
 .block{
-    margin-top: auto;
+    margin-top: 10px;
     background-color: chocolate;
     display: flex;
     justify-content: center;
@@ -62,5 +164,56 @@
     justify-content: space-around;
     height: 100vh;
     width: 100vw;
-
 }
+
+    .context-dark, .bg-gray-dark, .bg-primary {
+        color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+        color: #ffffff;
+    }
+    .nav-list li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .nav-list li a:hover:before {
+        margin-left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    ul, ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .social-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 23px;
+        font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .social-container .col {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .nav-list li a:before {
+        content: "\f14f";
+        font: 400 21px/1 "Material Design Icons";
+        color: #4d6de6;
+        display: inline-block;
+        vertical-align: baseline;
+        margin-left: -28px;
+        margin-right: 7px;
+        opacity: 0;
+        visibility: hidden;
+        transition: .22s ease;
+    }
+    
+
